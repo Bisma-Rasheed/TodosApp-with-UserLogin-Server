@@ -13,7 +13,7 @@ const userSchema = require('./Model/Userportal')(mongoose);
 const User = new mongoose.model('User', userSchema);
 
 route.get('/', (req, res) => {
-    res.send('hello from server');
+    res.send('hello from bisma ka server');
 });
 
 
